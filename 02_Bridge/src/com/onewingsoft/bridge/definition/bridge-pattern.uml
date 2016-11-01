@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-319.5" y="221.0">com.onewingsoft.bridge.definition.RefinedAbstraction</node>
+    <node x="148.0" y="126.0">com.onewingsoft.bridge.definition.Implementor</node>
+    <node x="10.0" y="215.0">com.onewingsoft.bridge.definition.ConcreteImplementorB</node>
+    <node x="216.0" y="215.0">com.onewingsoft.bridge.definition.ConcreteImplementorA</node>
+    <node x="-353.0" y="112.0">com.onewingsoft.bridge.definition.Abstraction</node>
+  </nodes>
+  <notes>
+    <note x="59.0" y="35.0">
+      <node>com.onewingsoft.bridge.definition.Implementor</node>
+      <value>Implementation hierarchy tree.</value>
+      <edge>
+        <point x="0.0" y="-16.5" />
+        <point x="0.0" y="14.0" />
+      </edge>
+    </note>
+    <note x="-373.0" y="34.0">
+      <node>com.onewingsoft.bridge.definition.Abstraction</node>
+      <value>Abstraction hierarchy tree.</value>
+      <edge>
+        <point x="0.0" y="-29.5" />
+        <point x="0.0" y="14.0" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="com.onewingsoft.bridge.definition.ConcreteImplementorA" target="com.onewingsoft.bridge.definition.Implementor">
+      <point x="0.0" y="-16.5" />
+      <point x="309.0" y="190.0" />
+      <point x="235.0" y="190.0" />
+      <point x="29.0" y="16.5" />
+    </edge>
+    <edge source="com.onewingsoft.bridge.definition.RefinedAbstraction" target="com.onewingsoft.bridge.definition.Abstraction">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="com.onewingsoft.bridge.definition.ConcreteImplementorB" target="com.onewingsoft.bridge.definition.Implementor">
+      <point x="0.0" y="-16.5" />
+      <point x="103.0" y="190.0" />
+      <point x="177.0" y="190.0" />
+      <point x="-29.0" y="16.5" />
+    </edge>
+    <edge source="com.onewingsoft.bridge.definition.Abstraction" target="com.onewingsoft.bridge.definition.Implementor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="68.5" y="122.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

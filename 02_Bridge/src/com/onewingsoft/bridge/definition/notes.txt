@@ -1,0 +1,4 @@
+This pattern decouples implementation and abstraction by keeping two independent hierarchy trees.
+The relationship between both branches (usually by a Has-A relation, but it can be by a Uses relation)
+is the bridge itself and allows us to develop both branches adding changes in implementation without affecting
+each other.

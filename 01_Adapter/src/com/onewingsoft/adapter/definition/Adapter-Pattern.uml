@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="23.0" y="459.7777777777778">com.onewingsoft.adapter.definition.Adaptee</node>
+    <node x="11.25" y="250.22222222222226">com.onewingsoft.adapter.definition.Adapter</node>
+    <node x="18.611111111111086" y="107.61111111111109">com.onewingsoft.adapter.definition.Target</node>
+    <node x="-407.94444444444446" y="249.77777777777774">com.onewingsoft.adapter.definition.Client</node>
+  </nodes>
+  <notes>
+    <note x="-85.55555555555554" y="1.1111111111111">
+      <node>com.onewingsoft.adapter.definition.Target</node>
+      <value>The interface that the client is using\nand the one we want the legacy class to\nimplement once it's adapted.</value>
+      <edge>
+        <point x="0.0" y="-29.5" />
+        <point x="0.0" y="32.0" />
+      </edge>
+    </note>
+    <note x="282.2222222222223" y="495.99999999999994">
+      <node>com.onewingsoft.adapter.definition.Adaptee</node>
+      <value>Legacy class we want to adapt\nto our ne Interface.</value>
+      <edge>
+        <point x="0.0" y="-82.5" />
+        <point x="0.0" y="23.0" />
+      </edge>
+    </note>
+    <note x="273.5" y="269.5555555555556">
+      <node>com.onewingsoft.adapter.definition.Adapter</node>
+      <value>The adapter to a legacy class.\nWe might have several adapter\nto adapt to several legacy classes.</value>
+      <edge>
+        <point x="51.0" y="-56.5" />
+        <point x="219.80555555555554" y="296.33333333333337" />
+        <point x="294.33333333333326" y="300.77777777777777" />
+        <point x="0.0" y="32.0" />
+      </edge>
+    </note>
+    <note x="-489.55555555555554" y="164.88888888888889">
+      <node>com.onewingsoft.adapter.definition.Client</node>
+      <value>This class depends on the Target Interface\nWe don't want to add more dependencies.</value>
+      <edge>
+        <point x="0.0" y="-43.0" />
+        <point x="0.0" y="23.0" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="com.onewingsoft.adapter.definition.Adapter" target="com.onewingsoft.adapter.definition.Adaptee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.onewingsoft.adapter.definition.Client" target="com.onewingsoft.adapter.definition.Adapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.onewingsoft.adapter.definition.Client" target="com.onewingsoft.adapter.definition.Target">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.onewingsoft.adapter.definition.Adapter" target="com.onewingsoft.adapter.definition.Target">
+      <point x="-51.0" y="-56.5" />
+      <point x="104.47222222222217" y="250.77777777777777" />
+      <point x="104.38888888888891" y="199.66666666666669" />
+      <point x="0.0" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8369565217391305" x="60.83116883116884" y="192.1038961038961" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
